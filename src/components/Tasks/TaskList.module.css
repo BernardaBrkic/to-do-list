@@ -1,0 +1,12 @@
+.container li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.container ul li::before {
+  content: "\27A4";
+  color: #263238;
+  padding-right: 1rem;
+}
+.empty img {
+  width: 100%;
+}

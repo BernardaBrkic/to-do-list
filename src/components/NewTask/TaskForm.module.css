@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: #263238;
+}
+.form input {
+  padding: 0.8rem;
+  border: 1px solid #ffc727;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  margin-top: 1.5rem;
+  color: #ffc727;
+  box-shadow: 2px 2px 8px #0000002f;
+  width: 100%;
+}
+
+.form input:focus {
+  outline: none;
+}
